@@ -19,7 +19,7 @@ SpeakEasy is an innovative augmented reality application designed for Snapchat S
 - 🔊 **Speech Output**: Text-to-speech conversion for AI responses
 - 👁️ **AR Visualization**: Real-time object detection and labeling
 - 🎮 **Interactive UI**: Touch and gesture-based controls
-- �� **Spectacles Optimized**: Built specifically for Snapchat Spectacles hardware
+- 👀 **Spectacles Optimized**: Built specifically for Snapchat Spectacles hardware
 
 ## Technology Stack
 
