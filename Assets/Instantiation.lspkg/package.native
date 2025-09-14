@@ -1,0 +1,34 @@
+- !<NativePackageDescriptor/2df471e3-6317-4dd7-97b8-b307c997a881>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 12
+    patch: 1
+    build: 25080420
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 68
+  ExportUid: ccb66319-c73b-46c6-b5ae-4aac4709737b
+  ComponentUid: ac05a701-07a0-4698-a8e9-ee2305c0b6ec
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: Instantiation
+    AssetId: qmnZ0QWiYb2TtOtCUqqQ4
+    Hash: c679f0a00367a1756b00d7cafb1e32dc
+    Version:
+      major: -1
+      minor: -1
+      patch: -1
+      build: 0

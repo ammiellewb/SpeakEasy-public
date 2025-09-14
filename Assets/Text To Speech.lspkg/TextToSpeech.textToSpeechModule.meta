@@ -1,0 +1,16 @@
+- !<AssetImportMetadata/6716dcf4-d92f-598f-0ef5-9b54237e775d>
+  ImportedAssetIds:
+    TextToSpeechModule: !<reference> 31f71c9a-50be-405e-afd8-dc8ab345b8aa
+  ImporterName: TextToSpeechModuleImporter
+  PrimaryAsset: !<reference> 31f71c9a-50be-405e-afd8-dc8ab345b8aa
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 91uCK9xPusn64PWkS99OY
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

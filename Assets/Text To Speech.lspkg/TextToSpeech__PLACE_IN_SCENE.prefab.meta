@@ -1,0 +1,136 @@
+- !<AssetImportMetadata/c4ef8c89-821b-a857-73dd-035947f8c3dc>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> c293e4d4-77af-4be6-89f8-56c29e32cccd
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> c293e4d4-77af-4be6-89f8-56c29e32cccd
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 91uCK9xPusn64PWkS99OY
+  AssetDataMap:
+    ObjectPrefab: !<own> a2f97ff9-7b8c-405f-b8e9-79309021a6d0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/11254e46-28a5-4636-9594-8bc3ba1bec21>
+  PrefabRemaps:
+    []
+  Name: TextToSpeech__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7b6c2d49-8b24-40ca-bac3-0de077048584
+    - !<own> 1901876f-6f74-4ef7-89fb-a7e8afa25701
+  Components:
+    []
+- !<SceneObject/1901876f-6f74-4ef7-89fb-a7e8afa25701>
+  PrefabRemaps:
+    []
+  Name: "TTS Example [DELETE_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 975424cf-c453-4c59-9a40-1681f0d59cf5
+- !<ScriptComponent/1f84dbac-c01b-488d-8e53-9abaa55d140b>
+  PrefabRemaps:
+    []
+  Name: TTSController
+  Enabled: true
+  ScriptAsset: !<reference> d56a26f2-1548-4959-a765-8f4f4a4c8458
+  ScriptInputsDefault:
+    previewTTS: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tts: !<reference.TextToSpeechModule> 31f71c9a-50be-405e-afd8-dc8ab345b8aa
+      audio: !<reference.AudioComponent> bd5e8144-0be4-4898-ab5b-8428a98a960a
+      autoStyleSelector: true
+      voiceName: Sasha
+      voiceStyleSasha: 1
+      voiceStyleSam: 1
+      voicePace: !<float> 1.000000
+      previewTTS: false
+      previewText: Show me you love cats without telling me you love cats
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/7b6c2d49-8b24-40ca-bac3-0de077048584>
+  PrefabRemaps:
+    []
+  Name: "TTS Controller [EDIT_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1f84dbac-c01b-488d-8e53-9abaa55d140b
+    - !<own> bd5e8144-0be4-4898-ab5b-8428a98a960a
+- !<ScriptComponent/975424cf-c453-4c59-9a40-1681f0d59cf5>
+  PrefabRemaps:
+    []
+  Name: "TTSExample[DELETE_ME]"
+  Enabled: true
+  ScriptAsset: !<reference> 70536ce3-ba36-4dcf-8c1c-8e02b47f5cf4
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      text: Provide any text input
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/a2f97ff9-7b8c-405f-b8e9-79309021a6d0>
+  SourceRemaps:
+    - 046934d9-9ecc-4b91-ac96-b0dbd5f17fec: 7b6c2d49-8b24-40ca-bac3-0de077048584
+    - 29687771-3ece-4e3a-81ba-98e02e147f28: bd5e8144-0be4-4898-ab5b-8428a98a960a
+    - 35ba94a2-13e7-4b4f-8e22-180cfd7043dd: 11254e46-28a5-4636-9594-8bc3ba1bec21
+    - 92e3436b-c4ee-4bf2-9671-41643c332490: 975424cf-c453-4c59-9a40-1681f0d59cf5
+    - 93f4164a-a31e-4f9a-b55d-7e586112497e: 1f84dbac-c01b-488d-8e53-9abaa55d140b
+    - c293e4d4-77af-4be6-89f8-56c29e32cccd: fdc8862c-ad52-472e-966b-b205504befe1
+    - da519158-237f-46b6-ba15-c17de55f8968: 1901876f-6f74-4ef7-89fb-a7e8afa25701
+  SourceState: !<own> fdc8862c-ad52-472e-966b-b205504befe1
+- !<AudioComponent/bd5e8144-0be4-4898-ab5b-8428a98a960a>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: true
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<ObjectPrefab/fdc8862c-ad52-472e-966b-b205504befe1>
+  PackagePath: ""
+  objects:
+    - !<own> 11254e46-28a5-4636-9594-8bc3ba1bec21
+  LazyLoading: false
+  RetainAssets: true

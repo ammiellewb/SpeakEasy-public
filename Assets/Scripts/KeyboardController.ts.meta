@@ -1,0 +1,41 @@
+- !<AssetImportMetadata/afb442e9-0e1d-4fc3-8cd5-a3db01cf2080>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 3ffd8ec3-ff72-47b9-ae3f-e669e2597e09
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 3ffd8ec3-ff72-47b9-ae3f-e669e2597e09
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> fcef5835-9924-4e94-ba79-2585c547b464
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/fcef5835-9924-4e94-ba79-2585c547b464>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9bafd4c1-d55c-4211-879f-ffb2a9d428c9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    touchUpDownButton: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - touchUpDownButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType touchUpDownButton {"hint":"Reference to the yellow button (TouchUpDownButton) Interactable component"}'

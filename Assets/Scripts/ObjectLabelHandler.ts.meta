@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/269f41c5-9a66-42d0-a973-c54d3a2455d5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e26f5529-a4bd-4972-a1a0-0c942e37db6b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e26f5529-a4bd-4972-a1a0-0c942e37db6b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8c582dc7-ce2c-442b-a75c-555194537d1a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8c582dc7-ce2c-442b-a75c-555194537d1a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 36d584a2-efb6-4d5d-ba78-aeec0a006034
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    groqAPI: false
+    sceneController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - sceneController: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      groqAPI: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType sceneController {"hint":"Reference to the SceneController to listen for detected objects"}'
+    - '// @input AssignableType_1 groqAPI {"hint":"Reference to the GroqAPI for generating conversational prompts"}'

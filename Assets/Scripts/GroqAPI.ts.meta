@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/6279b655-5633-499f-8df4-2ffe8ce2346a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ccd50c64-f963-44bc-8acf-d6c09f20387d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ccd50c64-f963-44bc-8acf-d6c09f20387d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2af6f9ea-9fd8-4f20-ba3f-62891092c828
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/2af6f9ea-9fd8-4f20-ba3f-62891092c828>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 93e4df16-733d-424d-bc6c-dedd57edafe7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    apiKey: false
+    internetModule: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - apiKey: ""
+      internetModule: !<reference.InternetModule> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string apiKey {"hint":"Your Groq API key (loaded from config)"}'
+    - '// @input Asset.InternetModule internetModule {"hint":"InternetModule for Spectacles HTTP requests"}'

@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/8e74f97e-5ff0-8657-4edb-68b1e1d8811d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e6bee292-c36a-46b7-ae7f-3768c0a92703
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e6bee292-c36a-46b7-ae7f-3768c0a92703
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8a0c46a7-7f0d-4d5d-8ef1-50645adcc453
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8a0c46a7-7f0d-4d5d-8ef1-50645adcc453>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ea6e8502-7721-4848-8794-8e471e3752a6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    bluetoothModule: false
+    characterController: false
+    screenText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - bluetoothModule: !<reference.BluetoothCentralModule> 00000000-0000-0000-0000-000000000000
+      screenText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      characterController: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.BluetoothCentralModule bluetoothModule
+    - // @input Component.Text screenText
+    - // @input AssignableType characterController

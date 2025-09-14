@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/ffdd8b93-8b8e-1cce-0615-0685eac7b077>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 100b18cb-4c39-489f-9d9a-a5406af1398f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 100b18cb-4c39-489f-9d9a-a5406af1398f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8d8e6f7c-134e-4925-a339-c5957f0f593a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8d8e6f7c-134e-4925-a339-c5957f0f593a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 133c931a-b7e8-41e1-ae13-434b8efab5f1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    cameraObj: false
+    keyboard: false
+    menu: false
+    objectVisuals: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - objectVisuals: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cameraObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      keyboard: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      menu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject objectVisuals
+    - // @input SceneObject cameraObj
+    - // @input SceneObject keyboard
+    - // @input SceneObject menu

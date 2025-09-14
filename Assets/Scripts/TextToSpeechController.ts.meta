@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/ad2ddd6d-a5c1-404d-b87a-789420ff897a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1cf2f463-9d08-463e-a07c-10537ee1274a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1cf2f463-9d08-463e-a07c-10537ee1274a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2f3e084f-d6fd-42fe-a234-741027dbb662
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/2f3e084f-d6fd-42fe-a234-741027dbb662>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: fa26cf17-6ff6-4810-9144-4c2eddd64db0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    audio: false
+    autoStyleSelector: false
+    previewTTS: false
+    previewText: false
+    tts: false
+    voiceName: false
+    voicePace: false
+    voiceStyleSam: false
+    voiceStyleSasha: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - tts: !<reference.TextToSpeechModule> 00000000-0000-0000-0000-000000000000
+      audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      autoStyleSelector: true
+      voiceName: Sasha
+      voiceStyleSasha: !<float> 1.000000
+      voiceStyleSam: !<float> 1.000000
+      voicePace: !<float> 1.000000
+      previewTTS: false
+      previewText: "Hello, this is a text to speech preview"
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Asset.TextToSpeechModule tts {"hint":"Text To Speech Module"}'
+    - '// @input Component.AudioComponent audio {"hint":"Audio Component for playback"}'
+    - '// @input bool autoStyleSelector = true {"hint":"Enable automatic voice style selection"}'
+    - '// @input string voiceName = "Sasha" {"hint":"Voice name selection"}'
+    - '// @input float voiceStyleSasha = 1 {"hint":"Voice style for Sasha (1-6)"}'
+    - '// @input float voiceStyleSam = 1 {"hint":"Voice style for Sam (1-6)"}'
+    - '// @input float voicePace = 1 {"hint":"Voice pace (0.75 - 1.50)"}'
+    - '// @input bool previewTTS {"hint":"Enable TTS preview on start"}'
+    - '// @input string previewText = "Hello, this is a text to speech preview" {"hint":"Preview text to speak on start"}'
