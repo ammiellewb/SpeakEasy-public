@@ -72,15 +72,8 @@ config/
 
 ## Development
 
-This project was developed for [Hack the North 2025](https://hackthenorth.com/) and showcases the potential of AR-powered conversational AI interfaces.
+This project was developed for [Hack the North 2025](https://hackthenorth.com/) and showcases the potential of AR-powered conversational AI interfaces for accessibility.
 
-## Contributing
-
-This is an open-source project. Contributions, suggestions, and improvements are welcome!
-
-## License
-
-MIT License
 
 ---
 
