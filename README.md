@@ -1,5 +1,7 @@
 # SpeakEasy
 
+Devpost link: https://devpost.com/software/speakeasy-arzjmb
+
 An AR application built for Snapchat Spectacles that enables real-time conversations with AI through speech recognition and text-to-speech functionality.
 
 ## Overview
